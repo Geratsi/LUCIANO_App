@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.luciano"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/manu/StudioProjects/luciano/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/manu/StudioProjects/luciano/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/manu/StudioProjects/luciano/android/app/src/main/AndroidManifest.xml:4:5-65
+15-->/Users/manu/StudioProjects/luciano/android/app/src/main/AndroidManifest.xml:4:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:network_info_plus] /Users/manu/StudioProjects/luciano/build/network_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+16-->[:network_info_plus] /Users/manu/StudioProjects/luciano/build/network_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[:network_info_plus] /Users/manu/StudioProjects/luciano/build/network_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+17-->[:network_info_plus] /Users/manu/StudioProjects/luciano/build/network_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:vibration] /Users/manu/StudioProjects/luciano/build/vibration/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+18-->[:vibration] /Users/manu/StudioProjects/luciano/build/vibration/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-69
+19-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-66
+20
+21    <uses-feature android:name="android.hardware.camera" />
+21-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-60
+21-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:12:19-57
+22    <uses-feature android:name="android.hardware.camera.autofocus" />
+22-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-70
+22-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-67
+23    <uses-feature android:name="android.hardware.camera.flash" />
+23-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-66
+23-->[:torch_controller] /Users/manu/StudioProjects/luciano/build/torch_controller/intermediates/merged_manifest/debug/AndroidManifest.xml:14:19-63
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+25        android:name="android.hardware.camera.front"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+32        android:required="false" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+33    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+34    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+35    <application
+36        android:name="android.app.Application"
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] /Users/manu/.gradle/caches/transforms-3/2647c6f9e207279b3fe6085096ed5274/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+41        android:label="Босс Ассистент" >
+42        <activity
+43            android:name="com.example.luciano.MainActivity"
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45            android:exported="true"
+46            android:hardwareAccelerated="true"
+47            android:launchMode="singleTop"
+48            android:theme="@style/LaunchTheme"
+49            android:windowSoftInputMode="adjustResize" >
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+58                android:name="io.flutter.embedding.android.NormalTheme"
+59                android:resource="@style/NormalTheme" />
+60
+61            <intent-filter>
+62                <action android:name="android.intent.action.MAIN" />
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+72            android:name="flutterEmbedding"
+73            android:value="2" />
+74
+75        <provider
+75-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+76            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+76-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+77            android:authorities="com.example.luciano.flutter.image_provider"
+77-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+78            android:exported="false"
+78-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+79            android:grantUriPermissions="true" >
+79-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+80            <meta-data
+80-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+82                android:resource="@xml/flutter_image_picker_file_paths" />
+82-->[:image_picker_android] /Users/manu/StudioProjects/luciano/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+83        </provider>
+84        <provider
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+86            android:authorities="com.example.luciano.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/manu/.gradle/caches/transforms-3/34b7b16762785fdc67fca8e4fd055a7d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/manu/.gradle/caches/transforms-3/711f0ca417a7aa98e20b5ffd6ab7f839/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/manu/.gradle/caches/transforms-3/711f0ca417a7aa98e20b5ffd6ab7f839/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/manu/.gradle/caches/transforms-3/711f0ca417a7aa98e20b5ffd6ab7f839/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+94        </provider>
+95
+96        <uses-library
+96-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+97            android:name="androidx.window.extensions"
+97-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+98            android:required="false" />
+98-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+99        <uses-library
+99-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+100            android:name="androidx.window.sidecar"
+100-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0-beta04] /Users/manu/.gradle/caches/transforms-3/c044f703faab2e399537974fd6bbc35e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+102
+103        <activity
+103-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+104            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+104-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+105            android:clearTaskOnLaunch="true"
+105-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+106            android:screenOrientation="sensorLandscape"
+106-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+107            android:stateNotNeeded="true"
+107-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+108            android:theme="@style/zxing_CaptureTheme"
+108-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+109            android:windowSoftInputMode="stateAlwaysHidden" />
+109-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/manu/.gradle/caches/transforms-3/564c5c9fd7cce139f63c63795fac8f83/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+110    </application>
+111
+112</manifest>

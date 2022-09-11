@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22656896783",
+    "project_id": "boss-assistant",
+    "storage_bucket": "boss-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22656896783:android:a1d3c84b0851ce626bf87a",
+        "android_client_info": {
+          "package_name": "com.example.luciano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22656896783-tplgpusale86ssni9lh5hjce5a6onglp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ae-cXofSZgCagwhUZqFa_NVmkcFSDvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22656896783-tplgpusale86ssni9lh5hjce5a6onglp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

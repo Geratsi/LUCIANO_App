@@ -1,0 +1,37 @@
+{
+    "@language": {
+        "description": "Текущий язык"
+    },
+    "welcome": "Добро пожаловать в Лучано",
+
+    "@pageRegistration": "",
+    "registration": "Регистрация",
+    "yourName": "Ваше имя",
+    "name": "Имя",
+    "yourSecondName": "Ваша фамилия",
+    "secondName": "Фамилия",
+    "register": "Зарегистрироваться",
+
+    "@pageLogin": "",
+    "login": "Войти",
+    "yourUsername": "Ваш логин",
+    "username": "Логин",
+    "yourPassword": "Ваш пароль",
+    "password": "Пароль",
+    "remember": "Запомнить?",
+    "forgotPassword": "Забыли пароль?",
+
+    "@pagePasswordRecovery": "",
+    "passwordRecovery": "Восстановление пароля",
+    "yourEmail": "Ваш e-mail",
+    "recover": "Восстановить",
+
+    "@pageSettings": "",
+    "settings": "Настройки",
+    "notifications": "Получать уведомления",
+    "sms": "Получать SMS",
+    "news": "Новости и специальные предложения",
+    "changeLanguage": "Изменить язык",
+    "chooseLanguage": "Выберите язык"
+
+}

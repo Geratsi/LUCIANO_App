@@ -1,0 +1,66 @@
+name: luciano
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  dio: ^4.0.4
+  intl: ^0.17.0
+  provider: ^6.0.3
+  equatable: ^2.0.3
+  flutter_svg: ^1.0.3
+  google_fonts: ^3.0.1
+  flutter_bloc: ^8.0.1
+  path_provider: ^2.0.7
+  image_picker: ^0.8.4+8
+  firebase_core: ^1.20.0
+  cloud_firestore: ^3.4.1
+  qr_code_scanner: ^1.0.0
+  cupertino_icons: ^1.0.2
+  torch_controller: ^1.0.0
+  permission_handler: ^9.2.0
+  shared_preferences: ^2.0.9
+  firebase_messaging: ^12.0.1
+  month_picker_dialog: ^0.4.0
+  vibration: ^1.7.4-nullsafety.0
+  flutter_secure_storage: ^5.0.2
+  flutter_swiper_null_safety: ^1.0.2
+  syncfusion_flutter_calendar: ^20.2.39
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Geometria
+      fonts:
+        - asset: assets/fonts/Geometria-Regular.ttf
+        - asset: assets/fonts/Geometria-Bold.ttf
+          weight: 700
+    - family: HeliosCond
+      fonts:
+        - asset: assets/fonts/HeliosCond-Regular.ttf
+        - asset: assets/fonts/HeliosCond-Bold.ttf
+          weight: 700

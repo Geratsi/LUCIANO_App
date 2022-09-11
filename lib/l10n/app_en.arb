@@ -1,0 +1,40 @@
+{
+    "@language": {
+        "description": "The current Language"
+    },
+    "welcome": "Welcome to Luciano",
+
+    "@pageRegistration": "",
+    "registration": "Registration",
+    "yourName": "Your name",
+    "name": "Name",
+    "yourSecondName": "Your second name",
+    "secondName": "Second name",
+    "register": "Register",
+
+    "@pageLogin": "",
+    "login": "Log in",
+    "yourUsername": "Your username",
+    "username": "Username",
+    "yourPassword": "Your password",
+    "password": "Password",
+    "remember": "Remember?",
+    "forgotPassword": "Forgot password?",
+
+    "@pagePasswordRecovery": "",
+    "passwordRecovery": "Password recovery",
+    "yourEmail": "Your e-mail",
+    "recover": "Recover",
+
+    "@pageSettings": "",
+    "settings": "Settings",
+    "notifications": "Get notifications",
+    "sms": "Get SMS",
+    "news": "Newsletter with promos",
+    "changeLanguage": "Change language",
+    "chooseLanguage": "Choose language",
+
+    "@pageHome": "",
+    "home": "Home",
+    "@pageExplore": ""
+}

@@ -1,0 +1,36 @@
+{
+    "@language": {
+        "description": "Хэзерге тель"
+    },
+    "welcome": "Рәхим итегез Лучано",
+
+    "@pageRegistration": "",
+    "registration": "Регистрация",
+    "yourName": "Ваше имя",
+    "name": "Имя",
+    "yourSecondName": "Ваша фамилия",
+    "secondName": "Фамилия",
+    "register": "Зарегистрироваться",
+
+    "@pageLogin": "",
+    "login": "Кереу",
+    "yourUsername": "Ваш логин",
+    "username": "Логин",
+    "yourPassword": "Ваш пароль",
+    "password": "Пароль",
+    "remember": "Запомнить?",
+    "forgotPassword": "Забыли пароль?",
+
+    "@pagePasswordRecovery": "",
+    "passwordRecovery": "Восстановление пароля",
+    "yourEmail": "Ваш e-mail",
+    "recover": "Восстановить",
+
+    "@pageSettings": "",
+    "settings": "Настройкалар",
+    "notifications": "Получать уведомления",
+    "sms": "Получать SMS",
+    "news": "Новости и специальные предложения",
+    "changeLanguage": "Изменить язык",
+    "chooseLanguage": "Выберите язык"
+}
